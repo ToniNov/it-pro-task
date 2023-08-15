@@ -1,0 +1,11 @@
+.mainPageLayout {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden
+}
+
+.content {
+    margin: 16px 16px;
+    padding: 16px;
+    min-height: 280px;
+}
