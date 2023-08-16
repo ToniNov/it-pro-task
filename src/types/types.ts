@@ -17,3 +17,9 @@ export type ArticleResponseType = {
   totalResults: number;
   articles: ArticleType[];
 };
+
+export type ErrorResponseDataType = {
+  code: string;
+  message: string;
+  status: string;
+};

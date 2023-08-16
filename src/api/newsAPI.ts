@@ -12,7 +12,7 @@ const instance = axios.create({
 
 export const newsAPI = {
   async fetchTopHeadlines(): Promise<ArticleResponseType> {
-    const response = await instance.get('top-headlines?country=ru&pageSize=100&page=1');
+    const response = await instance.get('top-headlines?country=us&pageSize=100&page=1');
 
     return response.data;
   },
