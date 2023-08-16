@@ -1,10 +1,10 @@
-import create from 'zustand';
+import { create } from 'zustand';
 import { devtools } from 'zustand/middleware';
 
 import { newsAPI } from '../api/newsAPI';
 import { ArticleType, ErrorResponseDataType } from '../types/types';
 
-type ArticleStore = {
+export type ArticleStore = {
   articles: ArticleType[];
   totalResults: number;
   loading: boolean;
